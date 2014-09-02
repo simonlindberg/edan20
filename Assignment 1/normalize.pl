@@ -9,6 +9,6 @@ open my $fh, '<', $filename or die "error opening $filename: $!";
 my $data = do { local $/; <$fh> };
 close $fh;
 
-$data =~ s@([A-ZÅÄÖ][^.]+)\.@<s>$1</s>@g;
+$data =~ s@([A-ZÅÄÖ][^.]+)\.@<s> $1 </s>@g;
 $data = lc($data);
 print $data;

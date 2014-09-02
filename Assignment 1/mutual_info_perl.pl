@@ -1,3 +1,4 @@
+#!/usr/bin/env perl
 
 $text = <>;
 while ($line = <>) { 

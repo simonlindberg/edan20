@@ -14,7 +14,7 @@ $text =~ tr/a-zåàâäæçéèêëîïôöœßùûüÿA-ZÅÀÂÄÆÇÉÈÊËÎ
 # a more limited way of simply using s///...
 
 @words = split(/\n/, $text);
-for ($i = 0; $i < $#words; $i++) {
+for ($i = 0; $i <= $#words - 1; $i++) {
 	$bigrams[$i] = $words[$i] . " " . $words[$i + 1];
 }
 
@@ -26,7 +26,7 @@ for ($i = 0; $i < $#words; $i++) {
 	}
 }
 foreach $bigram (sort keys %frequency_bigrams){
-#	print "$frequency_bigrams{$bigram} $bigram \n";
+	print "$frequency_bigrams{$bigram} $bigram \n";
 }
 
 # In this case we do the same tokenization as count_perl.perl
@@ -39,14 +39,14 @@ foreach $bigram (sort keys %frequency_bigrams){
 
 #####
 # Q: What is the possible number of bigrams and their real number? Explain why such a difference. What would be the possible number of 4-grams.
-# A: Possible number should be $#words/2...
+# A: Possible number should be $#words - 1...
 #    Using 'Selma.txt' as input; $#bigrams = 114622
 #                                $#words   = 114623
 #    The reason is that if there's an odd number of words, the last word is skipped.
-#    The number of 4-grams should be $#words/4, which would have the same problem as above.
+#    The number of 4-grams should be $#words - 3
 #
 # Q: Propose a solution to cope with bigrams unseen in the corpus. This topic will be discussed during the lab session.
-# A: Add a "dummy"-word thats used for the last word in an uneven list?
+# A: Add a "dummy"-word thats used for the last word
 
 
 

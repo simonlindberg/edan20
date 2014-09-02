@@ -1,9 +1,5 @@
 #!/usr/bin/env perl
 
-use utf8;
-binmode(STDOUT, ":encoding(UTF-8)");
-binmode(STDIN, ":encoding(UTF-8)");
-
 $text = <>;
 while ($line = <>) { 
 	$text .= $line;
