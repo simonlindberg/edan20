@@ -9,7 +9,8 @@ open my $fh, '<', $corpus or die "error opening $corpus: $!";
 my $text = do { local $/; <$fh> };
 close $fh;
 
-$text =~ tr/<\/>a-zåàâäæçéèêëîïôöœßùûüÿA-ZÅÀÂÄÆÇÉÈÊËÎÏÔÖŒÙÛÜŸ/\n/cs;
+$text =~ tr@</>a-zåàâäæçéèêëîïôöœßùûüÿA-ZÅÀÂÄÆÇÉÈÊËÎÏÔÖŒÙÛÜŸ@\n@cs;
+
 # tr commented in bigram
 
 @words = split(/\n/, $text);
