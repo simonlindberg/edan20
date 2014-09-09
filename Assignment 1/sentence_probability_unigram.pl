@@ -1,5 +1,6 @@
 #!/usr/bin/env perl
 use Data::Dumper;
+use utf8;
 
 my $corpus   = $ARGV[0];
 my $sentence = $ARGV[1];
@@ -8,10 +9,7 @@ open my $fh, '<', $corpus or die "error opening $corpus: $!";
 my $text = do { local $/; <$fh> };
 close $fh;
 
-$text =~ tr/<\/>a-zåàâäæçéèêëîïôöœßùûüÿA-ZÅÀÂÄÆÇÉÈÊËÎÏÔÖŒÙÛÜŸ/\n/cs;
-# tr commented in bigram
-
-@words = split(/\n/, $text);
+@words = split(/\s/, $text);
 for ($i = 0; $i <= $#words; $i++) {
 	$frequency{$words[$i]}++;
 }
@@ -19,6 +17,7 @@ for ($i = 0; $i <= $#words; $i++) {
 
 my @sentence = split / /, $sentence . " <\/s>";
 my $probability = 1;
+my $entropy = 0;
 
 print "Unigrams:\n";
 print "============================================\n";
@@ -29,12 +28,20 @@ for my $word (@sentence) {
 	my $prob = ($frequency{$word} || 1) / $#words;
 	print "$word\t$frequency{$word}\t$#words\t$prob\n";
 	$probability *= $prob;
+
+	$entropy -= $prob * log2($prob);
 }
 print "============================================\n";
 print "Prob. unigrams: $probability\n";
+print "Entropy rate:\t$entropy\n";
+print "Perplexity:\t" . (2**$entropy)."\n";
 print "============================================\n";
 
 
-# foreach $word (sort keys %frequency){
-# 	print "$frequency{$word} $word\n";
-# }
+sub log2 {
+	my $n = shift;
+	if (!$n) {
+		return 0;
+	}
+    return log($n)/log(2);
+}

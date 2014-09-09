@@ -1,6 +1,8 @@
 #!/usr/bin/env perl
 use Data::Dumper;
 use List::Util qw[min max];
+use utf8;
+use feature 'unicode_strings';
 
 my $corpus   = $ARGV[0];
 my $sentence = $ARGV[1];
@@ -9,11 +11,7 @@ open my $fh, '<', $corpus or die "error opening $corpus: $!";
 my $text = do { local $/; <$fh> };
 close $fh;
 
-$text =~ tr@</>a-zåàâäæçéèêëîïôöœßùûüÿA-ZÅÀÂÄÆÇÉÈÊËÎÏÔÖŒÙÛÜŸ@\n@cs;
-
-# tr commented in bigram
-
-@words = split(/\n/, $text);
+@words = split(/\s/, $text);
 
 
 for ($i = 0; $i < $#words; $i++) {
@@ -40,7 +38,7 @@ for ($i = 0; $i < scalar(@sentence) - 1; $i++) {
 	my $bigram = @sentence[$i] . " " . @sentence[$i + 1];
 	print @sentence[$i] . "\t" . @sentence[$i + 1];
 	print "\t";
-	print ($frequency_bigrams{$bigram} || 0);
+	print ($frequency_bigrams{$bigram} || "0");
 	print "\t";
 	print $frequency{@sentence[$i]} ? $frequency{@sentence[$i]} : "0";
 	print "\t";
@@ -50,25 +48,31 @@ for ($i = 0; $i < scalar(@sentence) - 1; $i++) {
 		$prob = $frequency_bigrams{$bigram} / $frequency{@sentence[$i]};
 	} else {
 		print "*backoff: ";
-		$prob = min($frequency{@sentence[$i]}, $frequency{@sentence[$i + 1]}) / $#words;
+		$prob = $frequency{@sentence[$i + 1]} / $#words;
 	} 
 	print $prob;
 
 	$probability *= $prob;
 
 	# Chapter 4, page 77
-	$entropy -= $prob * log2($prob);
+	#$entropy -= $prob * log2($prob);
 
 	print "\n";
 }
 
+$entropy = (-1 / $#sentence) * log2($probability);
+
 print "====================================================\n";
 print "P(Bigram);\tProb. bigrams:\t$probability\n";
 print "H(X);\t\tEntropy rate:\t$entropy\n";
-print "\t\tPerplexity:\t" . (2^$entropy)."\n";
+print "\t\tPerplexity:\t" . (2**$entropy)."\n";
 print "====================================================\n";
 
 
 sub log2 {
-    return log(shift)/log(2);
+	my $n = shift;
+	if (!$n) {
+		return 0;
+	}
+    return log($n)/log(2);
 }
