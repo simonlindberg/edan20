@@ -29,6 +29,7 @@ for ($i = 0; $i < $#words; $i++) {
 
 my @sentence = split / /, "<s> " . $sentence . " <\/s>";
 my $probability = 1;
+my $entropy = 0;
 
 print "Bigrams:\n";
 print "====================================================\n";
@@ -55,9 +56,19 @@ for ($i = 0; $i < scalar(@sentence) - 1; $i++) {
 
 	$probability *= $prob;
 
+	# Chapter 4, page 77
+	$entropy -= $prob * log2($prob);
+
 	print "\n";
 }
 
 print "====================================================\n";
-print "Prob. bigrams: $probability\n";
+print "P(Bigram);\tProb. bigrams:\t$probability\n";
+print "H(X);\t\tEntropy rate:\t$entropy\n";
+print "\t\tPerplexity:\t" . (2^$entropy)."\n";
 print "====================================================\n";
+
+
+sub log2 {
+    return log(shift)/log(2);
+}

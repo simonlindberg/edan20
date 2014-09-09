@@ -9,7 +9,7 @@ open my $fh, '<', $filename or die "error opening $filename: $!";
 my $data = do { local $/; <$fh> };
 close $fh;
 
-$data =~ s/[^\s\wa-zåàâäæçéèêëîïôöœßùûüÿA-ZÅÀÂÄÆÇÉÈÊËÎÏÔÖŒÙÛÜŸ.]//gi;
+$data =~ s/[^\s\wa-zåàâäæçéèêëîïôöœßùûüÿA-ZÅÀÂÄÆÇÉÈÊËÎÏÔÖŒÙÛÜŸ.,]//gi;
 $data =~ s@([A-ZÅÄÖ][^.]+)\.@<s> $1 </s>@g;
 $data =~ s/ +/ /g;
 $data = lc($data);
