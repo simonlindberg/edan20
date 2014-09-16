@@ -48,3 +48,4 @@ beginning(X, Y, Z) :- append(X, Z, Y).
 end(X, Y, Z) :- append(X, Z, Y).
 
 group(['NP', Group]) --> noun_group(Group).
+group(['VP', Group]) --> verb_group(Group).

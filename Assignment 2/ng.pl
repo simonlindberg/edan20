@@ -38,6 +38,7 @@ adj_group(AG) -->
 	adj_group(AGR),
 	{append(AGX, AGR, AG)}.
 
+verb_group(V) --> verb(V).
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % The POS rules
@@ -61,3 +62,13 @@ adj(A) --> gerund(A).
 past_participle(Pair) --> [Pair], { Pair = (_, 'VBN') }.
 
 gerund(Pair) --> [Pair], { Pair = (_, 'VBG') }.
+
+
+verb(Pair) --> [Pair], { Pair = (_, 'VB') }.
+%verb(Pair) --> [Pair], { Pair = (_, 'VBD') }.
+%verb(Pair) --> [Pair], { Pair = (_, 'VBG') }.
+%verb(Pair) --> [Pair], { Pair = (_, 'VBN') }.
+%verb(Pair) --> [Pair], { Pair = (_, 'VBP') }.
+%verb(Pair) --> [Pair], { Pair = (_, 'VBZ') }.
+
+
