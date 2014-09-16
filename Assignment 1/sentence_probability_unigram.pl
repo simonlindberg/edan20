@@ -30,11 +30,14 @@ for my $word (@sentence) {
 	$probability *= $prob;
 
 }
+
 $entropy = (-log2($probability)) / $#sentence;
+$perplexity = (2**$entropy);
+
 print "============================================\n";
 print "Prob. unigrams: $probability\n";
 print "Entropy rate:\t$entropy\n";
-print "Perplexity:\t" . (2**$entropy)."\n";
+print "Perplexity:\t" . $perplexity ."\n";
 print "============================================\n";
 
 
