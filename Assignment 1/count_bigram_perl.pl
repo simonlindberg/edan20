@@ -1,8 +1,5 @@
 #!/usr/bin/env perl
 
-use utf8;
-use Data::Dumper;
-
 $text = <>;
 while ($line = <>) { 
    $text .= $line;

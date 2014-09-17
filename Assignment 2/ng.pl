@@ -104,3 +104,4 @@ verb(Pair) --> [Pair], { Pair = (_, 'VBG') }.
 verb(Pair) --> [Pair], { Pair = (_, 'VBN') }.
 verb(Pair) --> [Pair], { Pair = (_, 'VBP') }.
 verb(Pair) --> [Pair], { Pair = (_, 'VBZ') }.
+
