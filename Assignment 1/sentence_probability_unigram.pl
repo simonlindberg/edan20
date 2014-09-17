@@ -28,9 +28,10 @@ for my $word (@sentence) {
 	my $prob = ($frequency{$word} || 1) / $#words;
 	print "$word\t$frequency{$word}\t$#words\t$prob\n";
 	$probability *= $prob;
-
-	$entropy -= $prob * log2($prob);
 }
+
+$entropy = (-1 / $#sentence) * log2($probability);
+
 print "============================================\n";
 print "Prob. unigrams: $probability\n";
 print "Entropy rate:\t$entropy\n";
