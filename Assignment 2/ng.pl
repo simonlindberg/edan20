@@ -13,7 +13,7 @@
 % Determinal ska kunna vara ensamma.
 % 
 
-noun_group([D | N]) --> det(D), nominal(N).
+noun_group([D | N]) --> det(D), noun_group(N).
 noun_group(N) --> nominal(N).
 
 noun_group([PN]) --> proper_noun(PN).

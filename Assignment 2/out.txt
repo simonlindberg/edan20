@@ -352,8 +352,8 @@ share NN I-NP
 . . O
 
 For IN O
-the DT O
-nine CD B-NP
+the DT B-NP
+nine CD I-NP
 months NNS I-NP
 , , O
 it PRP B-NP
@@ -385,8 +385,8 @@ a DT I-NP
 share NN I-NP
 , , O
 in IN O
-the DT O
-1988 CD B-NP
+the DT B-NP
+1988 CD I-NP
 period NN I-NP
 . . O
 
@@ -502,8 +502,8 @@ matters NNS I-NP
 and CC O
 it PRP B-NP
 posted VBD B-VP
-a DT O
-$ $ B-NP
+a DT B-NP
+$ $ I-NP
 7.6 CD I-NP
 million CD I-NP
 reduction NN I-NP
@@ -628,8 +628,8 @@ plunge NN I-NP
 that WDT O
 has VBZ B-VP
 given VBN B-VP
-the DT O
-two CD B-NP
+the DT B-NP
+two CD I-NP
 executives NNS I-NP
 paper NN I-NP
 losses NNS I-NP
@@ -693,8 +693,8 @@ $ $ B-NP
 a DT I-NP
 share NN I-NP
 , , O
-the DT O
-two CD B-NP
+the DT B-NP
+two CD I-NP
 executives NNS I-NP
 would MD O
 still RB O
@@ -735,8 +735,8 @@ each DT O
 . . O
 
 In IN O
-the DT O
-$ $ B-NP
+the DT B-NP
+$ $ I-NP
 300-a-share JJ I-NP
 buyout NN I-NP
 , , O
@@ -807,8 +807,8 @@ and CC O
 UAL NNP B-NP
 gave VBD B-VP
 him PRP B-NP
-a DT O
-$ $ B-NP
+a DT B-NP
+$ $ I-NP
 15 CD I-NP
 million CD I-NP
 bonus NN I-NP
@@ -826,8 +826,8 @@ $ $ O
 575,000 CD O
 , , O
 with IN O
-a DT O
-$ $ B-NP
+a DT B-NP
+$ $ I-NP
 575,000 CD I-NP
 bonus NN I-NP
 . . O
@@ -861,8 +861,8 @@ money NN B-NP
 United NNP B-NP
 paid VBD B-VP
 him PRP B-NP
-a DT O
-$ $ B-NP
+a DT B-NP
+$ $ I-NP
 375,000 CD I-NP
 bonus NN I-NP
 to TO O
@@ -885,8 +885,8 @@ $ $ B-NP
 last JJ I-NP
 year NN I-NP
 with IN O
-a DT O
-$ $ B-NP
+a DT B-NP
+$ $ I-NP
 280,000 CD I-NP
 bonus NN I-NP
 . . O
@@ -919,8 +919,8 @@ $ $ O
 37.7 CD O
 million CD O
 under IN O
-the DT O
-$ $ B-NP
+the DT B-NP
+$ $ I-NP
 300-a-share JJ I-NP
 buy-out NN I-NP
 , , O
@@ -938,11 +938,11 @@ close NN I-NP
 Of IN O
 the DT O
 combined VBN B-VP
-$ $ O
-114.4 CD O
-million CD O
-the DT O
-two CD B-NP
+$ $ B-NP
+114.4 CD I-NP
+million CD I-NP
+the DT I-NP
+two CD I-NP
 men NNS I-NP
 were VBD B-VP
 scheduled VBN B-VP
@@ -1263,8 +1263,8 @@ shares NNS I-NP
 , , O
 based VBN B-VP
 on IN O
-the DT O
-3.7 CD B-NP
+the DT B-NP
+3.7 CD I-NP
 million CD I-NP
 shares NNS I-NP
 outstanding JJ O
@@ -1320,8 +1320,8 @@ Merck NNP B-NP
 & CC O
 Co. NNP B-NP
 reported VBD B-VP
-a DT O
-25 CD B-NP
+a DT B-NP
+25 CD I-NP
 % NN I-NP
 increase NN I-NP
 in IN O
@@ -1418,8 +1418,8 @@ total JJ B-NP
 company NN I-NP
 sales NNS I-NP
 for IN O
-the DT O
-nine CD B-NP
+the DT B-NP
+nine CD I-NP
 months NNS I-NP
 , , O
 compared VBN B-VP
@@ -2707,8 +2707,8 @@ Globe NNP I-NP
 management NN I-NP
 for IN O
 questioning VBG B-VP
-a DT O
-$ $ B-NP
+a DT B-NP
+$ $ I-NP
 20 CD I-NP
 expense NN I-NP
 chit NN I-NP
@@ -2948,8 +2948,8 @@ pictures NNS I-NP
 Deeply RB O
 ingrained JJ O
 in IN O
-both DT O
-the DT B-NP
+both DT B-NP
+the DT I-NP
 book NN I-NP
 review NN I-NP
 `` `` O
@@ -3445,8 +3445,8 @@ throughout IN O
 fiscal JJ O
 1989 CD O
 with IN O
-a DT O
-$ $ B-NP
+a DT B-NP
+$ $ I-NP
 360 CD I-NP
 million CD I-NP
 budget NN I-NP
@@ -3668,8 +3668,8 @@ work NN I-NP
 financial JJ B-NP
 controls NNS I-NP
 governing VBG B-VP
-a DT O
-$ $ B-NP
+a DT B-NP
+$ $ I-NP
 6 CD I-NP
 billion CD I-NP
 budget NN I-NP
@@ -3853,8 +3853,8 @@ collecting VBG B-VP
 the DT B-NP
 names NNS I-NP
 of IN O
-those DT O
-who WP B-NP
+those DT B-NP
+who WP I-NP
 telephoned VBD B-VP
 the DT B-NP
 coup-makers NNS I-NP
@@ -3881,8 +3881,8 @@ with RB O
 . . O
 
 In IN O
-the DT O
-two CD B-NP
+the DT B-NP
+two CD I-NP
 weeks NNS I-NP
 since IN O
 the DT B-NP
@@ -4032,8 +4032,8 @@ when WRB O
 Mr. NNP B-NP
 Noriega NNP I-NP
 was VBD B-VP
-both DT O
-a DT B-NP
+both DT B-NP
+a DT I-NP
 cadet NN I-NP
 at IN O
 an DT B-NP
@@ -4950,8 +4950,8 @@ Fruit NNP I-NP
 was VBD B-VP
 one CD O
 of IN O
-the DT O
-two CD B-NP
+the DT B-NP
+two CD I-NP
 largest JJS I-NP
 contributors NNS I-NP
 to TO O
@@ -5437,8 +5437,8 @@ to TO O
 a DT B-NP
 copy NN I-NP
 of IN O
-a DT O
-1983 CD B-NP
+a DT B-NP
+1983 CD I-NP
 resume NN I-NP
 with IN O
 details NNS B-NP
@@ -7547,8 +7547,8 @@ Mr. NNP B-NP
 Noriega NNP I-NP
 had VBD B-VP
 stolen VBN B-VP
-the DT O
-1984 CD B-NP
+the DT B-NP
+1984 CD I-NP
 election NN I-NP
 and CC O
 had VBD B-VP
@@ -7895,8 +7895,8 @@ quarter NN I-NP
 substantially RB O
 slower JJR O
 than IN O
-the DT O
-3.3 CD B-NP
+the DT B-NP
+3.3 CD I-NP
 % NN I-NP
 annual JJ B-NP
 rate NN I-NP
@@ -9733,8 +9733,8 @@ even RB O
 . . O
 
 Of IN O
-the DT O
-4,345 CD B-NP
+the DT B-NP
+4,345 CD I-NP
 stocks NNS I-NP
 that WDT O
 changed VBD B-VP
@@ -10079,8 +10079,8 @@ the DT B-NP
 telecommunications NNS I-NP
 giant NN I-NP
 reported VBD B-VP
-a DT O
-63 CD B-NP
+a DT B-NP
+63 CD I-NP
 % NN I-NP
 increase NN I-NP
 in IN O
@@ -10583,8 +10583,8 @@ Wald NNP I-NP
 
 Writing VBG B-VP
 in IN O
-the DT O
-1960s CD B-NP
+the DT B-NP
+1960s CD I-NP
 Ms. NNP I-NP
 Carson NNP I-NP
 suggested VBD B-VP
@@ -11480,8 +11480,8 @@ attributed VBD B-VP
 the DT B-NP
 bulk NN I-NP
 of IN O
-a DT O
-14 CD B-NP
+a DT B-NP
+14 CD I-NP
 % NN I-NP
 increase NN I-NP
 in IN O
@@ -11535,8 +11535,8 @@ Co NNP B-NP
 . . O
 
 For IN O
-the DT O
-nine CD B-NP
+the DT B-NP
+nine CD I-NP
 months NNS I-NP
 , , O
 Coca-Cola NNP B-NP
@@ -12248,8 +12248,8 @@ Hooker NNP I-NP
 this DT B-NP
 week NN I-NP
 received VBD B-VP
-a DT O
-$ $ B-NP
+a DT B-NP
+$ $ I-NP
 409 CD I-NP
 million CD I-NP
 bid NN I-NP
@@ -13068,8 +13068,8 @@ pay NN I-NP
 . . O
 
 For IN O
-the DT O
-nine CD B-NP
+the DT B-NP
+nine CD I-NP
 months NNS I-NP
 , , O
 Rohm NNP B-NP
@@ -13370,8 +13370,8 @@ offer VB O
 routine JJ B-NP
 therapy NN I-NP
 with IN O
-the DT O
-two CD B-NP
+the DT B-NP
+two CD I-NP
 drugs NNS I-NP
 , , O
 levamisole NN B-NP
@@ -13682,8 +13682,8 @@ or CC O
 pure JJ B-NP
 methanol NN I-NP
 -- : O
-the DT O
-two CD B-NP
+the DT B-NP
+two CD I-NP
 front-running JJ I-NP
 alternative NN I-NP
 fuels NNS I-NP
@@ -13754,8 +13754,8 @@ House NNP I-NP
 proposal NN I-NP
 to TO O
 require VB O
-a DT O
-million CD B-NP
+a DT B-NP
+million CD I-NP
 cars NNS I-NP
 a DT B-NP
 year NN I-NP
@@ -14357,8 +14357,8 @@ government NN I-NP
 has VBZ B-VP
 charged VBN B-VP
 in IN O
-a DT O
-$ $ B-NP
+a DT B-NP
+$ $ I-NP
 1.1 CD I-NP
 billion CD I-NP
 civil JJ I-NP
@@ -15656,8 +15656,8 @@ year NN B-NP
 end NN I-NP
 . . O
 
-Both DT O
-he PRP B-NP
+Both DT B-NP
+he PRP I-NP
 and CC O
 Mr. NNP B-NP
 Lorenzo NNP I-NP
@@ -15927,8 +15927,8 @@ The DT B-NP
 method NN I-NP
 of IN O
 calculating VBG B-VP
-the DT O
-20 CD B-NP
+the DT B-NP
+20 CD I-NP
 % NN I-NP
 tax NN I-NP
 , , O
@@ -16203,8 +16203,8 @@ choose VB O
 . . O
 
 Amending VBG B-VP
-a DT O
-1988 CD B-NP
+a DT B-NP
+1988 CD I-NP
 return NN I-NP
 to TO O
 claim VB O
@@ -18253,8 +18253,8 @@ year NN I-NP
 25 CD B-NP
 % NN I-NP
 of IN O
-the DT O
-10 CD B-NP
+the DT B-NP
+10 CD I-NP
 million CD I-NP
 bicycles NNS I-NP
 sold VBN B-VP
@@ -18698,8 +18698,8 @@ or CC O
 $ $ B-NP
 5 NN I-NP
 for IN O
-each DT O
-$ $ B-NP
+each DT B-NP
+$ $ I-NP
 1,000 CD I-NP
 face NN I-NP
 amount NN I-NP
@@ -19278,8 +19278,8 @@ joint JJ I-NP
 venture NN I-NP
 is VBZ B-VP
 `` `` O
-The DT O
-1990 CD B-NP
+The DT B-NP
+1990 CD I-NP
 Homeowner NNP I-NP
 's POS B-NP
 Guide NNP I-NP
@@ -19439,8 +19439,8 @@ and CC O
 paper NN B-NP
 to TO O
 fuel VB O
-a DT O
-15 CD B-NP
+a DT B-NP
+15 CD I-NP
 % NN I-NP
 jump NN I-NP
 in IN O
@@ -19460,8 +19460,8 @@ share NN I-NP
 . . O
 
 In IN O
-the DT O
-1988 CD B-NP
+the DT B-NP
+1988 CD I-NP
 third JJ I-NP
 quarter NN I-NP
 , , O
@@ -19497,15 +19497,15 @@ billion CD O
 . . O
 
 For IN O
-the DT O
-nine CD B-NP
+the DT B-NP
+nine CD I-NP
 months NNS I-NP
 , , O
 the DT B-NP
 company NN I-NP
 posted VBD B-VP
-a DT O
-14 CD B-NP
+a DT B-NP
+14 CD I-NP
 % NN I-NP
 rise NN I-NP
 in IN O
@@ -19549,8 +19549,8 @@ billion CD O
 
 Results NNS B-NP
 for IN O
-the DT O
-1989 CD B-NP
+the DT B-NP
+1989 CD I-NP
 third JJ I-NP
 quarter NN I-NP
 and CC O
@@ -19646,8 +19646,8 @@ operations NNS I-NP
 were VBD B-VP
 up IN O
 for IN O
-the DT O
-nine CD B-NP
+the DT B-NP
+nine CD I-NP
 months NNS I-NP
 , , O
 but CC O
@@ -19741,8 +19741,8 @@ less-developed JJ B-NP
 countries NNS I-NP
 , , O
 making VBG B-VP
-a DT O
-$ $ B-NP
+a DT B-NP
+$ $ I-NP
 1.6 CD I-NP
 billion CD I-NP
 third-quarter JJ I-NP
@@ -19760,8 +19760,8 @@ it PRP B-NP
 expects VBZ B-VP
 to TO O
 report VB O
-a DT O
-$ $ B-NP
+a DT B-NP
+$ $ I-NP
 1.42 CD I-NP
 billion CD I-NP
 loss NN I-NP
@@ -19893,8 +19893,8 @@ year NN I-NP
 Citicorp NN B-NP
 yesterday NN I-NP
 reported VBD B-VP
-a DT O
-9 CD B-NP
+a DT B-NP
+9 CD I-NP
 % NN I-NP
 third-quarter JJ B-NP
 earnings NNS I-NP
@@ -19912,8 +19912,8 @@ Manufacturers NNP B-NP
 Hanover NNP I-NP
 Corp. NNP I-NP
 posted VBD B-VP
-a DT O
-$ $ B-NP
+a DT B-NP
+$ $ I-NP
 789 CD I-NP
 million CD I-NP
 loss NN I-NP
@@ -19953,8 +19953,8 @@ of IN O
 San NNP B-NP
 Francisco NNP I-NP
 posted VBD B-VP
-a DT O
-17 CD B-NP
+a DT B-NP
+17 CD I-NP
 % NN I-NP
 jump NN I-NP
 . . O
@@ -20142,8 +20142,8 @@ payments NNS I-NP
 from IN O
 Argentina NNP B-NP
 in IN O
-the DT O
-nine CD B-NP
+the DT B-NP
+nine CD I-NP
 months NNS I-NP
 and CC O
 none NN B-NP
@@ -20286,8 +20286,8 @@ the DT B-NP
 analyst NN I-NP
 cited VBD B-VP
 was VBD B-VP
-the DT O
-10 CD B-NP
+the DT B-NP
+10 CD I-NP
 % NN I-NP
 jump NN I-NP
 in IN O
@@ -20301,8 +20301,8 @@ to TO O
 costs NNS B-NP
 of IN O
 expanding VBG B-VP
-both DT O
-its PRP$ B-NP
+both DT B-NP
+its PRP$ I-NP
 consumer NN B-NP
 credit-card NN I-NP
 operations NNS I-NP
@@ -20492,8 +20492,8 @@ control NN I-NP
 gave VBD B-VP
 Wells NNP B-NP
 Fargo NNP I-NP
-a DT O
-1.25 CD B-NP
+a DT B-NP
+1.25 CD I-NP
 % NN I-NP
 return NN I-NP
 on IN O
@@ -21147,8 +21147,8 @@ states NNS I-NP
 on IN O
 one CD O
 of IN O
-the DT O
-two CD B-NP
+the DT B-NP
+two CD I-NP
 days NNS I-NP
 . . O
 
@@ -21756,8 +21756,8 @@ In IN O
 , , O
 India NNP B-NP
 signed VBD B-VP
-a DT O
-$ $ B-NP
+a DT B-NP
+$ $ I-NP
 1.4 CD I-NP
 billion CD I-NP
 contract NN I-NP
@@ -22039,8 +22039,8 @@ corrupt JJ O
 His PRP$ B-NP
 failures NNS B-NP
 in IN O
-those DT O
-two CD B-NP
+those DT B-NP
+two CD I-NP
 areas NNS I-NP
 deeply RB O
 , , O
@@ -22166,8 +22166,8 @@ Congress NNP I-NP
 I PRP B-NP
 -RRB- ) O
 lost VBD B-VP
-the DT O
-1977 CD B-NP
+the DT B-NP
+1977 CD I-NP
 election NN I-NP
 , , O
 following VBG B-NP
@@ -22217,8 +22217,8 @@ AB NNP I-NP
 , , O
 enters VBZ B-VP
 into IN O
-a DT O
-$ $ B-NP
+a DT B-NP
+$ $ I-NP
 1.4 CD I-NP
 billion CD I-NP
 contract NN I-NP
@@ -22399,8 +22399,8 @@ Parliament NNP I-NP
 , , O
 `` `` O
 ... : O
-neither DT O
-I PRP B-NP
+neither DT B-NP
+I PRP I-NP
 nor CC O
 any DT B-NP
 member NN I-NP
@@ -22965,8 +22965,8 @@ in IN O
 the DT B-NP
 day NN I-NP
 by IN O
-a DT O
-$ $ B-NP
+a DT B-NP
+$ $ I-NP
 4 CD I-NP
 billion CD I-NP
 offering NN I-NP
@@ -23244,8 +23244,8 @@ over IN O
 $ $ B-NP
 5 NN I-NP
 for IN O
-each DT O
-$ $ B-NP
+each DT B-NP
+$ $ I-NP
 1,000 CD I-NP
 face NN I-NP
 amount NN I-NP
@@ -23851,8 +23851,8 @@ sale NN I-NP
 was VBD B-VP
 part NN B-NP
 of IN O
-a DT O
-$ $ B-NP
+a DT B-NP
+$ $ I-NP
 6.7 CD I-NP
 billion CD I-NP
 refinancing NN I-NP
@@ -23882,8 +23882,8 @@ Meanwhile RB O
 Lockheed NNP B-NP
 Corp. NNP I-NP
 priced VBD B-VP
-a DT O
-$ $ B-NP
+a DT B-NP
+$ $ I-NP
 300 CD I-NP
 million CD I-NP
 note NN I-NP
@@ -23973,13 +23973,13 @@ moving VBG B-VP
 widely RB O
 . . O
 
-The DT O
-two CD B-NP
+The DT B-NP
+two CD I-NP
 Remics NNS I-NP
 priced VBN B-VP
 were VBD B-VP
-a DT O
-$ $ B-NP
+a DT B-NP
+$ $ I-NP
 500 CD I-NP
 million CD I-NP
 Federal NNP I-NP
@@ -23994,8 +23994,8 @@ Salomon NNP B-NP
 Brothers NNP I-NP
 Inc. NNP I-NP
 and CC O
-a DT O
-$ $ B-NP
+a DT B-NP
+$ $ I-NP
 350 CD I-NP
 million CD I-NP
 Federal NNP I-NP
@@ -24336,8 +24336,8 @@ Chemical NNP I-NP
 Securities NNPS I-NP
 group NN I-NP
 won VBD B-VP
-a DT O
-$ $ B-NP
+a DT B-NP
+$ $ I-NP
 100 CD I-NP
 million CD I-NP
 Oregon NNP I-NP
@@ -24355,8 +24355,8 @@ Nov. NNP I-NP
 1990 CD O
 . . O
 
-The DT O
-6 CD B-NP
+The DT B-NP
+6 CD I-NP
 3\/4 CD I-NP
 % NN I-NP
 notes NNS I-NP
@@ -24430,8 +24430,8 @@ yield VB O
 % NN I-NP
 . . O
 
-The DT O
-6 CD B-NP
+The DT B-NP
+6 CD I-NP
 3\/4 CD I-NP
 % NN I-NP
 notes NNS I-NP
@@ -24533,8 +24533,8 @@ spending NN I-NP
 bill NN I-NP
 that WDT O
 provides VBZ B-VP
-a DT O
-28 CD B-NP
+a DT B-NP
+28 CD I-NP
 % NN I-NP
 increase NN I-NP
 for IN O
@@ -24662,8 +24662,8 @@ negotiators NNS I-NP
 voted VBD B-VP
 to TO O
 preserve VB O
-the DT O
-235 CD B-NP
+the DT B-NP
+235 CD I-NP
 mortgage NN I-NP
 refinancing NN I-NP
 plan NN I-NP
@@ -24701,8 +24701,8 @@ above IN O
 11 CD B-NP
 % NN I-NP
 under IN O
-the DT O
-235 CD B-NP
+the DT B-NP
+235 CD I-NP
 program NN I-NP
 , , O
 and CC O
@@ -25014,8 +25014,8 @@ appropriations NNS I-NP
 conference NN I-NP
 yesterday NN I-NP
 , , O
-the DT O
-$ $ B-NP
+the DT B-NP
+$ $ I-NP
 67 CD I-NP
 billion CD I-NP
 measure NN I-NP
@@ -25418,8 +25418,8 @@ development NN I-NP
 funds NNS I-NP
 , , O
 where WRB O
-the DT O
-two CD B-NP
+the DT B-NP
+two CD I-NP
 houses NNS I-NP
 had VBD B-VP
 separately RB O
@@ -25539,8 +25539,8 @@ third JJ I-NP
 conference NN I-NP
 report NN I-NP
 covering VBG B-VP
-an DT O
-$ $ B-NP
+an DT B-NP
+$ $ I-NP
 18.4 CD I-NP
 billion CD I-NP
 Treasury NNP I-NP
@@ -25588,8 +25588,8 @@ and CC O
 foreign JJ B-NP
 aid NN I-NP
 are VBP B-VP
-the DT O
-two CD B-NP
+the DT B-NP
+two CD I-NP
 most RBS I-NP
 critical JJ I-NP
 areas NNS I-NP
@@ -25813,8 +25813,8 @@ despite IN O
 nervous JJ B-NP
 fluctuations NNS I-NP
 in IN O
-both DT O
-the DT B-NP
+both DT B-NP
+the DT I-NP
 dollar NN I-NP
 and CC O
 the DT B-NP
@@ -26679,8 +26679,8 @@ Cuba NNP B-NP
 ca MD O
 n't RB O
 meet VB O
-all DT O
-its PRP$ B-NP
+all DT B-NP
+its PRP$ I-NP
 shipment NN B-NP
 commitments NNS I-NP
 and CC O
@@ -27391,8 +27391,8 @@ businesses NNS I-NP
 , , O
 compared VBN B-VP
 with IN O
-a DT O
-25 CD B-NP
+a DT B-NP
+25 CD I-NP
 % NN I-NP
 business NN I-NP
 share NN I-NP
@@ -27627,8 +27627,8 @@ would MD O
 give VB O
 self-employed JJ B-NP
 people NNS I-NP
-a DT O
-100 CD B-NP
+a DT B-NP
+100 CD I-NP
 % NN I-NP
 tax NN I-NP
 deduction NN I-NP
@@ -28192,8 +28192,8 @@ SMALL NNP B-NP
 TALK NNP I-NP
 : : O
 
-Some DT O
-70 CD B-NP
+Some DT B-NP
+70 CD I-NP
 % NN I-NP
 of IN O
 graduates NNS B-NP
@@ -28642,8 +28642,8 @@ which WDT O
 went VBD B-VP
 private JJ O
 in IN O
-an DT O
-$ $ B-NP
+an DT B-NP
+$ $ I-NP
 8.2 CD I-NP
 billion CD I-NP
 leveraged JJ I-NP
@@ -28741,8 +28741,8 @@ into IN O
 Kabul NNP B-NP
 . . O
 
-Those DT O
-who WP B-NP
+Those DT B-NP
+who WP I-NP
 bought VBD B-VP
 that DT B-NP
 illusion NN I-NP
@@ -29573,8 +29573,8 @@ fanatics NNS I-NP
 . . O
 
 In IN O
-this DT O
-they PRP B-NP
+this DT B-NP
+they PRP I-NP
 are VBP B-VP
 aided VBN B-VP
 by IN O
@@ -30079,8 +30079,8 @@ successor NN I-NP
 President NNP B-NP
 Bush NNP I-NP
 , , O
-those DT O
-two CD B-NP
+those DT B-NP
+two CD I-NP
 cherished VBN I-NP
 national-security NN I-NP
 causes NNS I-NP
@@ -30291,8 +30291,8 @@ Republicans NNPS I-NP
 who WP B-NP
 have VBP B-VP
 championed VBN B-VP
-both DT O
-the DT B-NP
+both DT B-NP
+the DT I-NP
 Contras NNPS I-NP
 and CC O
 SDI NNP B-NP
@@ -31084,8 +31084,8 @@ raise VB O
 the DT B-NP
 profile NN I-NP
 of IN O
-the DT O
-two CD B-NP
+the DT B-NP
+two CD I-NP
 causes NNS I-NP
 . . O
 
@@ -31183,8 +31183,8 @@ though RB O
 , , O
 proponents NNS B-NP
 say VBP B-VP
-neither DT O
-the DT B-NP
+neither DT B-NP
+the DT I-NP
 Contra NNP I-NP
 nor CC O
 the DT B-NP
@@ -31231,8 +31231,8 @@ Rep. NNP B-NP
 Burton NNP I-NP
 . . O
 
-All DT O
-this DT B-NP
+All DT B-NP
+this DT I-NP
 causes NNS I-NP
 Rep. NNP I-NP
 Hyde NNP I-NP
@@ -31751,8 +31751,8 @@ on IN O
 here RB O
 ? . O
 
-The DT O
-three CD B-NP
+The DT B-NP
+three CD I-NP
 most RBS I-NP
 important JJ I-NP
 things NNS I-NP
@@ -32154,8 +32154,8 @@ hours NNS I-NP
 touring VBG B-VP
 some DT O
 of IN O
-the DT O
-150 CD B-NP
+the DT B-NP
+150 CD I-NP
 stalls NNS I-NP
 representing VBG B-NP
 such JJ I-NP
@@ -32226,8 +32226,8 @@ market NN I-NP
 though IN O
 trade NN B-NP
 between IN O
-the DT O
-two CD B-NP
+the DT B-NP
+two CD I-NP
 countries NNS I-NP
 is VBZ B-VP
 a DT O
@@ -33396,8 +33396,8 @@ supermarkets NNS B-NP
 . . O
 
 For IN O
-the DT O
-nine CD B-NP
+the DT B-NP
+nine CD I-NP
 months NNS I-NP
 , , O
 Polaroid NNP B-NP
@@ -34078,8 +34078,8 @@ discredited VBN B-VP
 . . O
 
 Before IN O
-the DT O
-1987 CD B-NP
+the DT B-NP
+1987 CD I-NP
 crash NN I-NP
 , , O
 an DT O
@@ -34146,8 +34146,8 @@ time NN I-NP
 , , O
 they PRP B-NP
 overwhelmed VBD B-VP
-both DT O
-the DT B-NP
+both DT B-NP
+the DT I-NP
 stock NN I-NP
 and CC O
 futures NNS B-NP
@@ -34370,8 +34370,8 @@ a DT B-NP
 dance NN I-NP
 ? . O
 
-All DT O
-you PRP B-NP
+All DT B-NP
+you PRP I-NP
 get VBP B-VP
 is VBZ B-VP
 risk NN B-NP
@@ -34406,8 +34406,8 @@ to TO O
 damp VB O
 volatility NN B-NP
 after IN O
-the DT O
-1987 CD B-NP
+the DT B-NP
+1987 CD I-NP
 crash NN I-NP
 actually RB O
 added VBD B-VP
@@ -34642,8 +34642,8 @@ points VBZ B-VP
 out RP O
 that IN O
 for IN O
-those DT O
-who WP B-NP
+those DT B-NP
+who WP I-NP
 invest VBP B-VP
 on IN O
 fundamentals NNS B-NP
@@ -34909,8 +34909,8 @@ say VBP B-VP
 ` `` O
 I PRP B-NP
 have VBP B-VP
-a DT O
-billion CD B-NP
+a DT B-NP
+billion CD I-NP
 dollars NNS I-NP
 of IN O
 stocks NNS B-NP
@@ -35670,8 +35670,8 @@ into IN O
 the DT B-NP
 Earth NNP I-NP
 during IN O
-the DT O
-two CD B-NP
+the DT B-NP
+two CD I-NP
 times NNS I-NP
 it PRP B-NP
 flies VBZ B-VP
@@ -36040,8 +36040,8 @@ Consider VB O
 the DT B-NP
 facts NNS I-NP
 underlying VBG B-VP
-the DT O
-1989 CD B-NP
+the DT B-NP
+1989 CD I-NP
 conviction NN I-NP
 of IN O
 Robert NNP B-NP
@@ -37165,8 +37165,8 @@ School NNP I-NP
 Corning NNP B-NP
 Inc. NNP I-NP
 posted VBD B-VP
-a DT O
-38 CD B-NP
+a DT B-NP
+38 CD I-NP
 % NN I-NP
 decline NN I-NP
 in IN O
@@ -37271,8 +37271,8 @@ earlier RBR O
 , , O
 net NN B-NP
 included VBD B-VP
-a DT O
-$ $ B-NP
+a DT B-NP
+$ $ I-NP
 700,000 CD I-NP
 taxlow NN I-NP
 carry-forward NN I-NP
@@ -37440,8 +37440,8 @@ Within IN O
 10 CD B-NP
 minutes NNS I-NP
 after IN O
-an DT O
-11:13 CD B-NP
+an DT B-NP
+11:13 CD I-NP
 a.m. NN I-NP
 trading NN I-NP
 halt NN I-NP
@@ -38439,8 +38439,8 @@ restaurants NNS B-NP
 . . O
 
 Among IN O
-the DT O
-three CD B-NP
+the DT B-NP
+three CD I-NP
 worst-performing JJ I-NP
 groups NNS I-NP
 , , O
@@ -40425,8 +40425,8 @@ political JJ I-NP
 donnybrook NN I-NP
 and CC O
 carried VBD B-VP
-a DT O
-$ $ B-NP
+a DT B-NP
+$ $ I-NP
 6 CD I-NP
 billion CD I-NP
 housing NN I-NP
@@ -40443,8 +40443,8 @@ votes NNS I-NP
 The DT B-NP
 politics NNS I-NP
 of IN O
-the DT O
-1990 CD B-NP
+the DT B-NP
+1990 CD I-NP
 congressional JJ I-NP
 authorization NN I-NP
 are VBP B-VP
@@ -40974,8 +40974,8 @@ violations NNS I-NP
 Neither CC O
 was VBD B-VP
 among IN O
-the DT O
-46 CD B-NP
+the DT B-NP
+46 CD I-NP
 traders NNS I-NP
 indicted VBD B-VP
 last JJ B-NP
@@ -40987,8 +40987,8 @@ investigation NN I-NP
 of IN O
 traders NNS B-NP
 at IN O
-both DT O
-the DT B-NP
+both DT B-NP
+the DT I-NP
 Merc NNP I-NP
 and CC O
 the DT B-NP
@@ -41087,8 +41087,8 @@ and CC O
 in IN O
 May NNP B-NP
 filed VBD B-VP
-a DT O
-$ $ B-NP
+a DT B-NP
+$ $ I-NP
 2.5 CD I-NP
 billion CD I-NP
 antitrust JJ I-NP
@@ -41649,28 +41649,30 @@ engineers NNS I-NP
 said VBD B-VP
 the DT B-NP
 company NN I-NP
-asked VBD B-VP
-the DT B-NP
-union NN I-NP
-to TO O
-reduce VB O
-its PRP$ B-NP
-demands NNS B-NP
+asked VBD B-V I-NP
+. . O
+
+Later RB O
 , , O
-which WDT O
-included VBD B-VP
-a DT O
-19 CD B-NP
-% NN I-NP
-pay NN I-NP
-hike NN I-NP
-in IN O
 the DT B-NP
-first JJ I-NP
-year NN I-NP
-and CC O
-8 CD B-NP
-% NN I-NP
+U.S. NNP I-NP
+currency NN I-NP
+fell VBD O
+to TO O
+about IN O
+142.25 CD B-NP
+yen NN I-NP
+on IN O
+news NN B-NP
+reports NNS I-NP
+of IN O
+the DT B-NP
+San NNP I-NP
+Francisco NNP I-NP
+earthquake NN I-NP
+. . O
+
+
 in IN O
 the DT O
 second JJ O
@@ -41764,8 +41766,8 @@ that WDT O
 would MD O
 have VB O
 provided VBN B-VP
-a DT O
-10 CD B-NP
+a DT B-NP
+10 CD I-NP
 % NN I-NP
 pay NN I-NP
 raise NN I-NP
@@ -42058,14 +42060,14 @@ into IN O
 two CD B-NP
 groups NNS I-NP
 : : O
-those DT O
-who WP B-NP
+those DT B-NP
+who WP I-NP
 carry VBP B-VP
 the DT B-NP
 virus NN I-NP
 and CC O
-those DT O
-who WP B-NP
+those DT B-NP
+who WP I-NP
 do VBP B-VP
 not RB O
 , , O
@@ -42233,8 +42235,8 @@ provide VBP B-VP
 free JJ B-NP
 treatment NN I-NP
 to TO O
-all DT O
-who WP B-NP
+all DT B-NP
+who WP I-NP
 test VBP B-VP
 positive JJ O
 . . O
@@ -42427,8 +42429,8 @@ U.S. NNP I-NP
 Commerce NNP I-NP
 Department NNP I-NP
 reported VBD B-VP
-a DT O
-$ $ B-NP
+a DT B-NP
+$ $ I-NP
 10.77 CD I-NP
 billion CD I-NP
 deficit NN I-NP
@@ -42450,8 +42452,8 @@ billion CD O
 Economists NNS B-NP
 had VBD B-VP
 expected VBN B-VP
-a DT O
-$ $ B-NP
+a DT B-NP
+$ $ I-NP
 9.1 CD I-NP
 billion CD I-NP
 gap NN I-NP
@@ -42461,15 +42463,15 @@ The DT B-NP
 August NNP I-NP
 figure NN I-NP
 reflected VBD B-VP
-a DT O
-6.4 CD B-NP
+a DT B-NP
+6.4 CD I-NP
 % NN I-NP
 rise NN I-NP
 in IN O
 imports NNS B-NP
 and CC O
-a DT O
-0.2 CD B-NP
+a DT B-NP
+0.2 CD I-NP
 % NN I-NP
 drop NN I-NP
 in IN O
@@ -43061,8 +43063,8 @@ Technology NNP I-NP
 Corp. NNP I-NP
 by IN O
 accepting VBG B-VP
-a DT O
-$ $ B-NP
+a DT B-NP
+$ $ I-NP
 3 CD I-NP
 million CD I-NP
 payment NN I-NP
@@ -43081,8 +43083,8 @@ products NNS I-NP
 involved VBN B-VP
 . . O
 
-The DT O
-two CD B-NP
+The DT B-NP
+two CD I-NP
 companies NNS I-NP
 also RB O
 agreed VBD B-VP
@@ -43286,8 +43288,8 @@ topped VBD B-VP
 the DT B-NP
 competition NN I-NP
 with IN O
-a DT O
-14.8 CD B-NP
+a DT B-NP
+14.8 CD I-NP
 rating NN I-NP
 and CC O
 25 CD B-NP
@@ -43298,8 +43300,8 @@ NBC NNP B-NP
 was VBD B-VP
 second JJ O
 with IN O
-a DT O
-13.9 CD B-NP
+a DT B-NP
+13.9 CD I-NP
 rating NN I-NP
 and CC O
 24 CD B-NP
@@ -43312,8 +43314,8 @@ Inc. NNP I-NP
 television NN I-NP
 network NN I-NP
 with IN O
-a DT O
-12.5 CD B-NP
+a DT B-NP
+12.5 CD I-NP
 rating NN I-NP
 and CC O
 21 CD B-NP
@@ -43420,8 +43422,8 @@ victories NNS I-NP
 weeks NNS I-NP
 -- : O
 during IN O
-the DT O
-1962-63 CD B-NP
+the DT B-NP
+1962-63 CD I-NP
 season NN I-NP
 . . O
 
@@ -43682,8 +43684,8 @@ products NNS I-NP
 concern VBP B-VP
 , , O
 said VBD B-VP
-the DT O
-8.1 CD B-NP
+the DT B-NP
+8.1 CD I-NP
 % NN I-NP
 loan NN I-NP
 is VBZ B-VP
@@ -43854,8 +43856,8 @@ maneuvering NN I-NP
 that WDT O
 holds VBZ B-VP
 up IN O
-the DT O
-$ $ B-NP
+the DT B-NP
+$ $ I-NP
 156.7 CD I-NP
 billion CD I-NP
 funding NN I-NP
@@ -44739,8 +44741,8 @@ its PRP$ B-NP
 previous JJ B-NP
 estimate NN I-NP
 of IN O
-a DT O
-50 CD B-NP
+a DT B-NP
+50 CD I-NP
 % NN I-NP
 rise NN I-NP
 in IN O
@@ -44935,8 +44937,8 @@ earnings NNS I-NP
 was VBD B-VP
 based VBN B-VP
 on IN O
-a DT O
-15 CD B-NP
+a DT B-NP
+15 CD I-NP
 % NN I-NP
 gain NN I-NP
 in IN O
@@ -46824,8 +46826,8 @@ Hollander NNP I-NP
 , , O
 who WP B-NP
 holds VBZ B-VP
-a DT O
-49.4 CD B-NP
+a DT B-NP
+49.4 CD I-NP
 % NN I-NP
 stake NN I-NP
 , , O
@@ -46869,8 +46871,8 @@ stake NN B-NP
 last JJ B-NP
 August NNP I-NP
 in IN O
-an DT O
-$ $ B-NP
+an DT B-NP
+$ $ I-NP
 11-a-share JJ I-NP
 tender NN I-NP
 offer NN I-NP
@@ -47090,8 +47092,8 @@ communications NNS B-NP
 equipment NN I-NP
 , , O
 posted VBD B-VP
-a DT O
-52 CD B-NP
+a DT B-NP
+52 CD I-NP
 % NN I-NP
 plunge NN I-NP
 in IN O
@@ -47116,8 +47118,8 @@ in IN O
 pretax JJ B-NP
 profit NN I-NP
 for IN O
-the DT O
-12 CD B-NP
+the DT B-NP
+12 CD I-NP
 months NNS I-NP
 to TO O
 June NNP B-NP
@@ -47241,8 +47243,8 @@ industry NN I-NP
 as IN O
 it PRP B-NP
 reported VBD B-VP
-a DT O
-36 CD B-NP
+a DT B-NP
+36 CD I-NP
 % NN I-NP
 jump NN I-NP
 in IN O
@@ -47250,8 +47252,8 @@ fiscal JJ B-NP
 first-quarter JJ I-NP
 earnings NNS I-NP
 on IN O
-a DT O
-33 CD B-NP
+a DT B-NP
+33 CD I-NP
 % NN I-NP
 revenue NN I-NP
 gain NN I-NP
@@ -47347,8 +47349,8 @@ Oct. NNP B-NP
 4 CD O
 , , O
 causing VBG B-VP
-a DT O
-$ $ B-NP
+a DT B-NP
+$ $ I-NP
 6.5 CD I-NP
 a DT I-NP
 share NN I-NP
@@ -47567,8 +47569,8 @@ is VBZ B-VP
 slowing VBG B-VP
 to TO O
 about IN O
-a DT O
-10 CD B-NP
+a DT B-NP
+10 CD I-NP
 % NN I-NP
 yearly JJ B-NP
 rate NN I-NP
@@ -47875,8 +47877,8 @@ or CC O
 % NN I-NP
 , , O
 in IN O
-the DT O
-three CD B-NP
+the DT B-NP
+three CD I-NP
 trading NN I-NP
 days NNS I-NP
 since IN O
@@ -48088,8 +48090,8 @@ step NN I-NP
 
 It PRP B-NP
 expects VBZ B-VP
-a DT O
-$ $ B-NP
+a DT B-NP
+$ $ I-NP
 1.42 CD I-NP
 billion CD I-NP
 quarterly JJ I-NP
@@ -48098,8 +48100,8 @@ loss NN I-NP
 
 Citicorp NNP B-NP
 posted VBD B-VP
-a DT O
-9 CD B-NP
+a DT B-NP
+9 CD I-NP
 % NN I-NP
 drop NN I-NP
 in IN O
@@ -48277,8 +48279,8 @@ $ $ O
 billion CD O
 . . O
 
-A DT O
-$ $ B-NP
+A DT B-NP
+$ $ I-NP
 67 CD I-NP
 billion CD I-NP
 spending NN I-NP
@@ -48643,8 +48645,8 @@ BroadBeach NNP B-NP
 said VBD B-VP
 it PRP B-NP
 sold VBD B-VP
-the DT O
-101,000 CD B-NP
+the DT B-NP
+101,000 CD I-NP
 McGill NNP I-NP
 shares NNS I-NP
 for IN O
@@ -48866,8 +48868,8 @@ would MD O
 be VB O
 close RB O
 to TO O
-the DT O
-322.7 CD B-NP
+the DT B-NP
+322.7 CD I-NP
 million CD I-NP
 francs NNS I-NP
 posted VBD B-VP
