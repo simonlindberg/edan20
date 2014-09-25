@@ -10,7 +10,7 @@ import java.util.Map.Entry;
 
 public class Store {
 	final private Map<Storable, Integer> map = new HashMap<>();
-	int count = 0;
+	private int count = 0;
 	
 	public void store(final Storable s) {
 		if (map.containsKey(s)) {
