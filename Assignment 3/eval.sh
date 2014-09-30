@@ -1,3 +1,4 @@
+#!/bin/sh
 GOLD=$1
 OUT=$2
 
