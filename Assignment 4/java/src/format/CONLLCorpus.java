@@ -115,9 +115,9 @@ public class CONLLCorpus {
 		final Store pairs = getPairs(sentenceList);
 		final Store triples = getTriples(sentenceList);
 
-//		 System.out.println(pairs.count());
-		System.out.println(triples.count());
-//		 System.out.println(triples.toString());
+		System.out.println();
+		System.out.println("Pairs: " + pairs.count());
+		System.out.println("Triples: " + triples.count());
 		System.out.println();
 		System.out.println(triples.getFiveBest());
 	}
@@ -136,7 +136,6 @@ public class CONLLCorpus {
 
 	private static Store getTriples(List<List<Word>> sentenceList) {
 		final Store store = new Store();
-		int count = 0;
 		for (final List<Word> sent : sentenceList) {
 			final Map<Integer, Word> map = new HashMap<>();
 			for (final Word word : sent) {
@@ -157,7 +156,6 @@ public class CONLLCorpus {
 				}
 			}
 		}
-		System.out.println(count);
 		return store;
 	}
 }
