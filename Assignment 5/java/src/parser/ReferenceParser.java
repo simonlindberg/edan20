@@ -27,24 +27,24 @@ public abstract class ReferenceParser {
         depGraph = new ArrayList<Word>();
     }
 
-    private void doLeftArc() {
+    protected void doLeftArc() {
         depGraph.add(stack.pop());
     }
 
-    private void doRightArc() {
+    protected void doRightArc() {
         depGraph.add(queue.get(0));
         stack.push(queue.remove(0));
     }
 
-    private void doReduce() {
+    protected void doReduce() {
         stack.pop();
     }
 
-    private void doShift() {
+    protected void doShift() {
         stack.push(queue.remove(0));
     }
 
-    private boolean oracleLeftArc() {
+    protected boolean oracleLeftArc() {
         boolean oracleLeftArc = false;
         if (!stack.empty()) {
             if (stack.peek().getHead() == queue.get(0).getId()) {
@@ -62,7 +62,7 @@ public abstract class ReferenceParser {
         return oracleLeftArc;
     }
 
-    private boolean oracleRightArc() {
+    protected boolean oracleRightArc() {
         boolean oracleRightArc = false;
         if (!stack.empty()) {
             if (stack.peek().getId() == queue.get(0).getHead()) {
@@ -73,7 +73,7 @@ public abstract class ReferenceParser {
         return oracleRightArc;
     }
 
-    private boolean oracleReduce() {
+    protected boolean oracleReduce() {
         boolean oracleReduce = false;
 
         for (int i = 0; i < stack.size(); i++) {
@@ -137,7 +137,7 @@ public abstract class ReferenceParser {
     protected abstract Features extractFeatures();
 
     // A sanity check about the action sequence.
-    private boolean equalGraphs() {
+    protected boolean equalGraphs() {
         boolean equals = false;
         List<Word> temp = new ArrayList<Word>(wordList);
 
@@ -178,26 +178,7 @@ public abstract class ReferenceParser {
     }
 
     // Will return true if the hand Hand-annotated graph and reference-parsed graph are equal. 
-    public boolean parse() {
-        transitionList = new ArrayList<String>();
-        featureList = new ArrayList<Features>();
-
-        while (!queue.isEmpty()) {
-            featureList.add(extractFeatures());
-            // COMPLETE HERE THE CODE TO DETERMINE THE ACTION 
-        }
-        emptyStack(transitionList, featureList);
-
-        boolean printCntOper = false;
-        if (printCntOper) {
-            System.out.println("#words: " + wordList.size() + " \tStack: " + stack.size() + "\tTransition count: " + transitionList.size());
-        }
-
-        // Final test to check if the hand-annotated graph and reference-parsed
-        // graph are equal.
-        // If they are different, this is probably due to nonprojective links
-        return equalGraphs();
-        }
+    public abstract boolean parse();
 
     public void printActions() {
         for (int i = 0; i < wordList.size(); i++) {

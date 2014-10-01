@@ -5,7 +5,7 @@ import java.util.List;
 import format.Word;
 import guide.Features;
 
-public class _6Labeled extends ReferenceParser {
+public class _6Labeled extends LabeledParser {
 
 	public _6Labeled(List<Word> wordList) {
 		super(wordList);
