@@ -13,11 +13,8 @@ public class Features {
     String secondPostagQueue;
     boolean canLA;
     boolean canRE;
-
-    public Features(String topPostagStack, String firstPostagQueue) {
-        this.topPostagStack = topPostagStack;
-        this.firstPostagQueue = firstPostagQueue;
-    }
+	private String nextWordPostag;
+	private String unknown;
 
     public Features(String topPostagStack, String firstPostagQueue, boolean canLA, boolean canRE) {
         this.topPostagStack = topPostagStack;
@@ -35,7 +32,18 @@ public class Features {
         this.canRE = canRE;
     }
 
-    public String getTopPostagStack() {
+    public Features(String topPostagStack, String secondPostagStack, String firstPostagQueue, String secondPostagQueue, String nextWordPostag, String unknown, boolean canLA, boolean canRE) {
+    	this.topPostagStack = topPostagStack;
+        this.secondPostagStack = secondPostagStack;
+        this.firstPostagQueue = firstPostagQueue;
+        this.secondPostagQueue = secondPostagQueue;
+        this.nextWordPostag = nextWordPostag;
+        this.unknown = unknown;
+        this.canLA = canLA;
+        this.canRE = canRE;
+    }
+
+	public String getTopPostagStack() {
         return topPostagStack;
     }
 

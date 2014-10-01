@@ -13,8 +13,7 @@ public class _4Labeled extends LabeledParser {
 
 	@Override
 	protected Features extractFeatures() {
-		// TODO Auto-generated method stub
-		return null;
+		return new Features(stack.peek().getPostag(), stack.elementAt(1).getPostag(), queue.get(0).getPostag(), queue.get(1).getPostag(), canLeftArc(), canReduce());
 	}
 
 }

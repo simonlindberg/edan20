@@ -13,8 +13,7 @@ public class _2Unlabeled extends UnlabeledParser {
 
 	@Override
 	protected Features extractFeatures() {
-		// TODO Auto-generated method stub
-		return null;
+		return new Features(stack.peek().getPostag(), queue.get(0).getPostag(), canLeftArc(), canReduce());
 	}
 
 }

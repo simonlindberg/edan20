@@ -97,7 +97,7 @@ public abstract class ReferenceParser {
         return oracleReduce;
     }
 
-    private boolean canReduce() {
+    protected boolean canReduce() {
         boolean canReduce = false;
         if (stack.empty()) {
             return false;
@@ -116,7 +116,7 @@ public abstract class ReferenceParser {
         return canReduce;
     }
     
-    private boolean canLeftArc() {
+    protected boolean canLeftArc() {
         boolean canLeftArc = true;
         if (stack.empty()) {
             return false;
