@@ -41659,6 +41659,7 @@ U.S. NNP I-NP
 currency NN I-NP
 fell VBD O
 to TO O
+<<<<<<< Updated upstream
 about IN O
 142.25 CD B-NP
 yen NN I-NP
@@ -41666,6 +41667,20 @@ on IN O
 news NN B-NP
 reports NNS I-NP
 of IN O
+=======
+reduce VB O
+its PRP$ B-NP
+demands NNS B-NP
+, , O
+which WDT O
+included VBD B-VP
+a DT B-NP
+19 CD I-NP
+% NN I-NP
+pay NN I-NP
+hike NN I-NP
+in IN O
+>>>>>>> Stashed changes
 the DT B-NP
 San NNP I-NP
 Francisco NNP I-NP

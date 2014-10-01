@@ -1,9 +1,10 @@
 package store;
 
 public final class Triple extends Storable {
+	
 	@Override
 	public String toString() {
-		return "Triple [subject=" + subject + ", verb=" + verb + ", object=" + object + "]\n";
+		return "\tTriple [subject=" + subject + ", verb=" + verb + ", object=" + object + "]\n";
 	}
 
 	@Override

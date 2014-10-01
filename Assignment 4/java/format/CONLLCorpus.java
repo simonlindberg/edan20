@@ -36,9 +36,6 @@ public class CONLLCorpus {
 		List<Word> sentence = new ArrayList<Word>();
 		sentence.add(root);
 
-		int sentenceCount = 0;
-		int lineCount = 0;
-
 		String line = null;
 		while ((line = reader.readLine()) != null) {
 			final Word curWord = makeWord(line);
@@ -48,15 +45,9 @@ public class CONLLCorpus {
 				sentenceList.add(sentence);
 				sentence = new ArrayList<Word>();
 				sentence.add(root);
-				sentenceCount++;
-			}
-			lineCount++;
-			if ((lineCount % 10000) == 0) {
-				System.out.println("Read: " + lineCount + " lines, " + sentenceCount + " sentences.");
 			}
 		}
 		reader.close();
-		System.out.println("Read: " + lineCount + " lines, " + sentenceCount + " sentences.");
 		return sentenceList;
 	}
 
@@ -76,15 +67,11 @@ public class CONLLCorpus {
 
 	public static void printSentenceList(List<List<Word>> sentenceList) throws UnsupportedEncodingException {
 		for (final List<Word> sent : sentenceList) {
-			printSentence(sent);
+			for (final Word word : sent) {
+				System.out.print(word.getForm() + " ");
+			}
+			System.out.println("");
 		}
-	}
-
-	private static void printSentence(List<Word> sent) {
-		for (final Word word : sent) {
-			System.out.print(word.getForm() + " ");
-		}
-		System.out.println("");
 	}
 
 	public static void saveFile(File file, List<List<Word>> sentenceList) throws IOException {
@@ -112,13 +99,16 @@ public class CONLLCorpus {
 
 	public static void main(String[] args) throws IOException {
 		final List<List<Word>> sentenceList = loadFile(Constants.TRAINING_SET);
+
 		final Store pairs = getPairs(sentenceList);
 		final Store triples = getTriples(sentenceList);
 
+		System.out.println("Pairs");
+		System.out.println("count: " + pairs.count());
+		System.out.println(pairs.getFiveBest());
 		System.out.println();
-		System.out.println("Pairs: " + pairs.count());
-		System.out.println("Triples: " + triples.count());
-		System.out.println();
+		System.out.println("Triples");
+		System.out.println("count: " + triples.count());
 		System.out.println(triples.getFiveBest());
 	}
 
@@ -145,12 +135,9 @@ public class CONLLCorpus {
 					} else {
 						final Word other = map.get(word.getHead());
 						if (!other.getDeprel().equals(word.getDeprel())) {
-							store.store(
-									new Triple(
-										(word.getDeprel().equals(Constants.SUBJECT) ? word : other).getForm(),
-										sent.get(word.getHead()).getForm(),
-										(word.getDeprel().equals(Constants.OBJECT) ? word : other).getForm())
-									);
+							final Word subject = word.getDeprel().equals(Constants.SUBJECT) ? word : other;
+							final Word object = word.getDeprel().equals(Constants.OBJECT) ? word : other;
+							store.store(new Triple(subject.getForm(), sent.get(word.getHead()).getForm(), object.getForm()));
 						}
 					}
 				}

@@ -35,7 +35,7 @@ public class Word {
 
     Word(String id, String form, String lemma, String cpostag, String postag, String feats) {
         this.id = new Integer(id).intValue();
-        this.form = form;
+        this.form = form.toLowerCase();
         this.lemma = lemma;
         this.cpostag = cpostag;
         this.postag = postag;
@@ -48,7 +48,7 @@ public class Word {
 
     Word(String id, String form, String lemma, String cpostag, String postag, String feats, String head, String deprel, String phead, String pdeprel) {
         this.id = new Integer(id).intValue();
-        this.form = form;
+        this.form = form.toLowerCase();
         this.lemma = lemma;
         this.cpostag = cpostag;
         this.postag = postag;

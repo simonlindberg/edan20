@@ -18,6 +18,7 @@ noun_group(N) --> nominal(N).
 
 noun_group([PN]) --> proper_noun(PN).
 noun_group([PRO]) --> pronoun(PRO).
+noun_group([PRO | NG]) --> pronoun(PRO), noun_group(NG).
 
 noun_group(NG) -->
 	det(D), adj_group(AG), nominal(NOM),
@@ -62,10 +63,10 @@ det(Pair) --> [Pair], { Pair = (_, 'DT') }.
 common_noun(Pair) --> [Pair], { Pair = (_, 'NN') }.
 %Added
 common_noun(Pair) --> [Pair], { Pair = (_, 'NNS') }.
-common_noun(Pair) --> [Pair], { Pair = (_, 'NNPS') }.
-
 
 proper_noun(Pair) --> [Pair], { Pair = (_, 'NNP') }.
+%Added
+proper_noun(Pair) --> [Pair], { Pair = (_, 'NNPS') }.
 
 pronoun(Pair) --> [Pair], { Pair = (_, 'PRP') }.
 %added

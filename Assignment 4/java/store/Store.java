@@ -35,8 +35,6 @@ public class Store {
 		final List<Entry<Storable, Integer>> tempList = new ArrayList<>(map.entrySet());
 		
 		Collections.sort(tempList, new Comparator<Entry<Storable, Integer>>() {
-
-			@Override
 			public int compare(Entry<Storable, Integer> e1, Entry<Storable, Integer> e2) {
 				return e2.getValue() - e1.getValue();
 			}

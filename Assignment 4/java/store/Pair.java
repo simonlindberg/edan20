@@ -8,6 +8,6 @@ public final class Pair extends Storable {
 
 	@Override
 	public String toString() {
-		return "Pair [subject=" + subject + ", verb=" + verb + "]";
+		return "\tPair [subject=" + subject + ", verb=" + verb + "]\n";
 	}
 }
