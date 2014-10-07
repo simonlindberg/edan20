@@ -38,7 +38,13 @@ public final class Main {
 
         System.out.println("Parsing the sentences...");
         for (int i = 0; i < sentenceList.size(); i++) {
-            final ReferenceParser refParser = new _2Labeled(sentenceList.get(i));
+        	final ReferenceParser refParser = new _2Labeled(sentenceList.get(i));
+//        	final ReferenceParser refParser = new _4Labeled(sentenceList.get(i));
+//        	final ReferenceParser refParser = new _6Labeled(sentenceList.get(i));
+//        	final ReferenceParser refParser = new _2Unlabeled(sentenceList.get(i));
+//        	final ReferenceParser refParser = new _4Unlabeled(sentenceList.get(i));
+//        	final ReferenceParser refParser = new _6Unlabeled(sentenceList.get(i));
+        	
             // Failed parses should be discarded.
             final boolean parseSuccess = refParser.parse();
             refParser.printActions();
