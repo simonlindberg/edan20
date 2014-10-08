@@ -14,6 +14,14 @@ public class Features {
     boolean canLA;
     boolean canRE;
 	private String nextWordPostag;
+	public String getNextWordPostag() {
+		return nextWordPostag;
+	}
+
+	public String getUnknown() {
+		return unknown;
+	}
+
 	private String unknown;
 
     public Features(String topPostagStack, String firstPostagQueue, boolean canLA, boolean canRE) {

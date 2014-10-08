@@ -1,9 +1,0 @@
-@relation parse_action
-
-@attribute top_pos_stack {nil, ROOT, ++, NN, EN, AV, AJ, IK, IP, PO, VV, AB, TP, PR, RO, ID, PN, IC, MN, UK, VN, QV, WV, IQ, SV, HV, IR, IG, AN, MV, IM, BV, KV, GV, FV, PU, SP, XX, I?, IS, IT, IU, YY}
-@attribute first_pos_queue {nil, ROOT, ++, NN, EN, AV, AJ, IK, IP, PO, VV, AB, TP, PR, RO, ID, PN, IC, MN, UK, VN, QV, WV, IQ, SV, HV, IR, IG, AN, MV, IM, BV, KV, GV, FV, PU, SP, XX, I?, IS, IT, IU, YY}
-@attribute can_do_leftarc {true, false}
-@attribute can_reduce {true, false}
-@attribute action {la.ROOT, la.++, la.NN, la.EN, la.AV, la.AJ, la.IK, la.IP, la.PO, la.VV, la.AB, la.TP, la.PR, la.RO, la.ID, la.PN, la.IC, la.MN, la.UK, la.VN, la.QV, la.WV, la.IQ, la.SV, la.HV, la.IR, la.IG, la.AN, la.MV, la.IM, la.BV, la.KV, la.GV, la.FV, la.PU, la.SP, la.XX, la.I?, la.IS, la.IT, la.IU, la.YY, ra.ROOT, ra.++, ra.NN, ra.EN, ra.AV, ra.AJ, ra.IK, ra.IP, ra.PO, ra.VV, ra.AB, ra.TP, ra.PR, ra.RO, ra.ID, ra.PN, ra.IC, ra.MN, ra.UK, ra.VN, ra.QV, ra.WV, ra.IQ, ra.SV, ra.HV, ra.IR, ra.IG, ra.AN, ra.MV, ra.IM, ra.BV, ra.KV, ra.GV, ra.FV, ra.PU, ra.SP, ra.XX, ra.I?, ra.IS, ra.IT, ra.IU, ra.YY, re, sh}
-
-@data

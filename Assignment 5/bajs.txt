@@ -1,0 +1,5 @@
+Discuss how to extend Nivre's parser to carry out a gold standard parsing. Given a manually-annotated dependency graph, what are the conditions on the stack and the current input list -- the queue -- to execute left-arc, right-arc, shift, or reduce? Start with left-arc and right-arc, which are the simplest ones.
+
+läs http://www.aclweb.org/anthology/C/C10/C10-1093.pdf
+Nivre's parser sets constraints to actions. Name a way to encode these constraints as features. Think of Boolean features.
+Generate ARFF-files

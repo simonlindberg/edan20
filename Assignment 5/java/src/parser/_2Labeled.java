@@ -13,7 +13,7 @@ public class _2Labeled extends LabeledParser {
 
 	@Override
 	protected Features extractFeatures() {
-		return new Features(stack.peek().getPostag(), queue.get(0).getPostag(), canLeftArc(), canReduce());
+		return new Features(safeStackPos(0), safeQueuePos(0), canLeftArc(), canReduce());
 	}
 
 }

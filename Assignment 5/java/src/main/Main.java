@@ -5,8 +5,7 @@ import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 
-import parser.ReferenceParser;
-import parser._2Labeled;
+import parser.*;
 import format.ARFFData;
 import format.CONLLCorpus;
 import format.Constants;
@@ -47,7 +46,7 @@ public final class Main {
         	
             // Failed parses should be discarded.
             final boolean parseSuccess = refParser.parse();
-            refParser.printActions();
+//            refParser.printActions();
             if (parseSuccess) {
                 featureList.addAll(refParser.getFeatureList());
                 transitionList.addAll(refParser.getActionList());

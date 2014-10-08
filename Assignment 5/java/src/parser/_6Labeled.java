@@ -13,12 +13,12 @@ public class _6Labeled extends LabeledParser {
 
 	@Override
 	protected Features extractFeatures() {
-		return new Features(stack.peek().getPostag(),
-							stack.elementAt(1).getPostag(),
-							queue.get(0).getPostag(),
-							queue.get(1).getPostag(),
-							wordList.get(wordList.indexOf(stack.peek()) + 1).getPostag(),
-							null,
+		return new Features(safeStackPos(0),
+							safeStackPos(1),
+							safeQueuePos(0),
+							safeQueuePos(1),
+							safeWordPos(),
+							safeQueuePos(2),
 							canLeftArc(),
 							canReduce());
 	}
