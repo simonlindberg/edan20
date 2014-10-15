@@ -16,27 +16,21 @@ public class WekaGlue {
     Instance instance;
 
     @SuppressWarnings("deprecation")
-	public int create(String modelName, String datasetName) {
-        try {
-            ObjectInputStream is = new ObjectInputStream(new FileInputStream(modelName));
-            classifier = (Classifier) is.readObject();
-            dataset = new Instances(new FileReader(datasetName), 0);
-            dataset.setClassIndex(dataset.numAttributes() - 1);
-
-            instance = new DenseInstance(dataset.numAttributes());
-            instance.setDataset(dataset);
-
-            System.err.println("Loaded classifier.");
-            System.err.flush();
-
-            is.close();
-            return 0;
-        } catch (Exception e) {
-            e.printStackTrace();
-            System.err.flush();
-            return -1;
-        }
-    }
+    public WekaGlue(String modelName, String datasetName) throws IOException, ClassNotFoundException {
+		// TODO Auto-generated constructor stub
+    	ObjectInputStream is = new ObjectInputStream(new FileInputStream(modelName));
+    	classifier = (Classifier) is.readObject();
+    	dataset = new Instances(new FileReader(datasetName), 0);
+    	dataset.setClassIndex(dataset.numAttributes() - 1);
+    	
+    	instance = new DenseInstance(dataset.numAttributes());
+    	instance.setDataset(dataset);
+    	
+    	System.err.println("Loaded classifier.");
+    	System.err.flush();
+    	
+    	is.close();
+	}
 
     public int getNAttributes() {
         try {

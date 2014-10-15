@@ -21,11 +21,11 @@ public class ARFFData {
 
 		for (int i = 0; i < featureList.size(); i++) {
 			writer.write((featureList.get(i)).getTopPostagStack() + "\t");
-//			writer.write((featureList.get(i)).getSecondPostagStack() + "\t");
+			writer.write((featureList.get(i)).getSecondPostagStack() + "\t");
 			writer.write((featureList.get(i)).getFirstPostagQueue() + "\t");
-//			writer.write((featureList.get(i)).getSecondPostagQueue() + "\t");
-//			writer.write((featureList.get(i).getNextWordPostag()) + "\t");
-//			writer.write((featureList.get(i).getUnknown()) + "\t");
+			writer.write((featureList.get(i)).getSecondPostagQueue() + "\t");
+			writer.write((featureList.get(i).getNextWordPostag()) + "\t");
+			writer.write((featureList.get(i).getThirdQueuePos()) + "\t");
 			writer.write((featureList.get(i)).getCanLA() + "\t");
 			writer.write((featureList.get(i)).getCanRE() + "\t");
 			writer.write(actionList.get(i) + "\n");

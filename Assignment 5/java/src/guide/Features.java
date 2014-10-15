@@ -15,10 +15,10 @@ public class Features {
     boolean canRE;
 	private String nextWordPostag;
 	public String getNextWordPostag() {
-		return nextWordPostag;
+		return "nil";//nextWordPostag;
 	}
 
-	public String getUnknown() {
+	public String getThirdQueuePos() {
 		return unknown;
 	}
 

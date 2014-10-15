@@ -1,5 +1,27 @@
 Discuss how to extend Nivre's parser to carry out a gold standard parsing. Given a manually-annotated dependency graph, what are the conditions on the stack and the current input list -- the queue -- to execute left-arc, right-arc, shift, or reduce? Start with left-arc and right-arc, which are the simplest ones.
 
+
+unlabled 6:
+Correctly Classified Instances      308797               91.645  %
+Incorrectly Classified Instances     28152                8.355  %
+unlabled 4:
+Correctly Classified Instances      308449               91.5417 %
+Incorrectly Classified Instances     28500                8.4583 %
+unlabled 2:
+Correctly Classified Instances      290554               86.2309 %
+Incorrectly Classified Instances     46395               13.7691 %
+
+
+labled 6:
+Correctly Classified Instances      283521               84.1436 %
+Incorrectly Classified Instances     53428               15.8564 %
+labled 4:
+Correctly Classified Instances      275459               81.7509 %
+Incorrectly Classified Instances     61490               18.2491 %
+labled 2:
+Correctly Classified Instances      264356               78.4558 %
+Incorrectly Classified Instances     72593               21.5442 %
+
 läs http://www.aclweb.org/anthology/C/C10/C10-1093.pdf
 Nivre's parser sets constraints to actions. Name a way to encode these constraints as features. Think of Boolean features.
 Generate ARFF-files

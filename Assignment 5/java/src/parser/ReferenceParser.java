@@ -4,10 +4,15 @@ package parser;
  *
  * @author Pierre Nugues
  */
+import java.io.File;
+import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Stack;
 
+import format.ARFFData;
+import format.CONLLCorpus;
+import format.Constants;
 import format.Word;
 import guide.Features;
 
@@ -231,7 +236,8 @@ public abstract class ReferenceParser {
 		}
 		emptyStack(transitionList, featureList);
 
-//			System.out.println("#words: " + wordList.size() + " \tStack: " + stack.size() + "\tTransition count: " + transitionList.size());
+		// System.out.println("#words: " + wordList.size() + " \tStack: " +
+		// stack.size() + "\tTransition count: " + transitionList.size());
 
 		// Final test to check if the hand-annotated graph and reference-parsed
 		// graph are equal.
@@ -271,13 +277,46 @@ public abstract class ReferenceParser {
 	protected String safeQueuePos(final int i) {
 		return queue.size() > i ? queue.get(i).getPostag() : "nil";
 	}
-	protected String safeWordPos(){
-		if (!stack.empty()){
-			final int i = wordList.indexOf(stack.peek());
-			if (i > 0) {
-				return wordList.get(i).getPostag();
+
+	protected String safeWordPos() {
+//		if (!stack.empty()) {
+//			final int i = wordList.indexOf(stack.peek());
+//			if (i > 0) {
+//				return wordList.get(i).getPostag();
+//			}
+//		}
+		return "nil";
+	}
+
+	public static void main(String... a) throws IOException {
+		final List<List<Word>> sentenceList = new CONLLCorpus().loadFile(new File(Constants.TRAINING_SET));
+
+		final List<String> transitionList = new ArrayList<String>();
+		final List<Features> featureList = new ArrayList<Features>();
+
+		System.out.println("Parsing the sentences...");
+		for (int i = 0; i < sentenceList.size(); i++) {
+			// final ReferenceParser refParser = new
+			// _2Labeled(sentenceList.get(i));
+			// final ReferenceParser refParser = new
+			// _4Labeled(sentenceList.get(i));
+			final ReferenceParser refParser = new _6Labeled(sentenceList.get(i));
+			// final ReferenceParser refParser = new
+			// _2Unlabeled(sentenceList.get(i));
+			// final ReferenceParser refParser = new
+			// _4Unlabeled(sentenceList.get(i));
+			// final ReferenceParser refParser = new
+			// _6Unlabeled(sentenceList.get(i));
+
+			// Failed parses should be discarded.
+			final boolean parseSuccess = refParser.parse();
+			// refParser.printActions();
+			if (parseSuccess) {
+				featureList.addAll(refParser.getFeatureList());
+				transitionList.addAll(refParser.getActionList());
 			}
 		}
-		return "nil";
+		new ARFFData().saveFeatures(new File(Constants.ARFF_FILE_OUT), featureList, transitionList);
+
 	}
 }

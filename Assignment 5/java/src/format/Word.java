@@ -114,4 +114,8 @@ public class Word {
     public void setDeprel(String deprel) {
         this.deprel = deprel;
     }
+    
+    public String toString() {
+    	return form;
+    }
 }
